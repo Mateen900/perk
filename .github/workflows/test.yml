@@ -1,0 +1,4 @@
+env:
+  VAR: LinuxHint
+  name: Print Variable
+  run: echo "Hello $VAR"
