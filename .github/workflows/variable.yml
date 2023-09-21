@@ -1,0 +1,13 @@
+name: Variable Testing
+
+on:
+  workflow_dispatch
+
+jobs:
+  greeting_job:
+    runs-on: ubuntu-latest
+    env:
+      Greeting: Hello
+    steps:
+      - name: "GitHub Action Variable"
+        run: echo "$VAR-ACT"
